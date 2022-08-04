@@ -1,0 +1,42 @@
+[custom]
+
+ruleset=🌐 Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google.list
+ruleset=🌐 GitHub,https://raw.githubusercontent.com/renhongmeng/Clash/main/GitHub.list
+ruleset=🎬 奈飞视频,https://raw.githubusercontent.com/renhongmeng/Clash/main/NETFLIX.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/renhongmeng/Clash/main/game.list
+ruleset=📲 聊天软件,https://raw.githubusercontent.com/renhongmeng/Clash/main/chat.list
+ruleset=🎵 TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.list
+ruleset=🎵 Spotify,https://raw.githubusercontent.com/renhongmeng/Clash/main/spotify.list
+ruleset=🌏 国外网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/GFW.List
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/adblock.list
+ruleset=⛔ 应用拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/BanADP.list
+ruleset=🇧🇹 BT,https://raw.githubusercontent.com/renhongmeng/Clash/main/PrivateTracker.list
+ruleset=🧩 微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Microsoft.list
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.list
+ruleset=🎬 国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/StreamingCN.list
+ruleset=🌏 国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn.list
+ruleset=🌏 国内IP段,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn-ip.list
+ruleset=🌏 国内网站,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+
+custom_proxy_group=♻️ 手动切换`select`.*
+custom_proxy_group=🌐 Google`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🌐 GitHub`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🎬 奈飞视频`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=📲 聊天软件`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🎵 Spotify`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🎵 TikTok`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🌏 国外网站`select`[]♻️ 手动切换`[]DIRECT`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🇧🇹 BT`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🧩 微软服务`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🎬 国内流媒体`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🌏 国内网站`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🌏 国内IP段`select`[]DIRECT`[]♻️ 手动切换`.*
+custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=⛔ 应用拦截`select`[]REJECT`[]DIRECT
+
+enable_rule_generator=true
+overwrite_original_rules=true
