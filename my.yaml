@@ -1,21 +1,21 @@
 [custom]
 
-ruleset=🌐 Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google.list
-ruleset=🌐 GitHub,https://raw.githubusercontent.com/renhongmeng/Clash/main/GitHub.list
-ruleset=🎬 奈飞视频,https://raw.githubusercontent.com/renhongmeng/Clash/main/NETFLIX.list
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/renhongmeng/Clash/main/game.list
-ruleset=📲 聊天软件,https://raw.githubusercontent.com/renhongmeng/Clash/main/chat.list
-ruleset=🎵 TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.list
-ruleset=🎵 Spotify,https://raw.githubusercontent.com/renhongmeng/Clash/main/spotify.list
-ruleset=🌏 国外网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/GFW.List
-ruleset=🛑 全球拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/adblock.list
-ruleset=⛔ 应用拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/BanADP.list
-ruleset=🇧🇹 BT,https://raw.githubusercontent.com/renhongmeng/Clash/main/PrivateTracker.list
-ruleset=🧩 微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Microsoft.list
-ruleset=🍎 苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.list
-ruleset=🎬 国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/StreamingCN.list
-ruleset=🌏 国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn.list
-ruleset=🌏 国内IP段,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn-ip.list
+ruleset=🌐 Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google.yaml
+ruleset=🌐 GitHub,https://raw.githubusercontent.com/renhongmeng/Clash/main/GitHub.yaml
+ruleset=🎬 奈飞视频,https://raw.githubusercontent.com/renhongmeng/Clash/main/NETFLIX.yaml
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/renhongmeng/Clash/main/game.yaml
+ruleset=📲 聊天软件,https://raw.githubusercontent.com/renhongmeng/Clash/main/chat.yaml
+ruleset=🎵 TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.yaml
+ruleset=🎵 Spotify,https://raw.githubusercontent.com/renhongmeng/Clash/main/spotify.yaml
+ruleset=🌏 国外网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/GFW.yaml
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/adblock.yaml
+ruleset=⛔ 应用拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/BanADP.yaml
+ruleset=🇧🇹 BT,https://raw.githubusercontent.com/renhongmeng/Clash/main/PrivateTracker.yaml
+ruleset=🧩 微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Microsoft.yaml
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.yaml
+ruleset=🎬 国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/StreamingCN.yaml
+ruleset=🌏 国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn.yaml
+ruleset=🌏 国内IP段,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn-ip.yaml
 ruleset=🌏 国内网站,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
