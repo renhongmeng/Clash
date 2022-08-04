@@ -1,0 +1,179 @@
+#------------------APP广告--------------------------
+# > 163
+DOMAIN-SUFFIX,img2.126.net
+DOMAIN-SUFFIX,nc004x.corp.youdao.com
+DOMAIN-SUFFIX,nc045x.corp.youdao.com
+DOMAIN-SUFFIX,push.126.net
+DOMAIN-SUFFIX,qt002x.corp.youdao.com
+DOMAIN-SUFFIX,tb060x.corp.youdao.com
+DOMAIN-SUFFIX,tb104x.corp.youdao.com
+DOMAIN-SUFFIX,wanproxy.127.net
+# > 178
+DOMAIN-SUFFIX,gg.stargame.com
+# > 2345
+DOMAIN-SUFFIX,dl.2345.cn
+DOMAIN-SUFFIX,download.2345.cn
+DOMAIN-SUFFIX,houtai.2345.cn
+DOMAIN-SUFFIX,jifen.2345.cn
+DOMAIN-SUFFIX,jifendownload.2345.cn
+DOMAIN-SUFFIX,minipage.2345.cn
+DOMAIN-SUFFIX,wan.2345.cn
+DOMAIN-SUFFIX,zhushou.2345.cn
+# > 360
+DOMAIN-SUFFIX,pub.se.360.cn
+DOMAIN-SUFFIX,shouji.360.cn
+# > Alibaba
+DOMAIN-SUFFIX,amdc.alipay.com
+DOMAIN-SUFFIX,show.re.taobao.com
+# > Adobe
+DOMAIN-SUFFIX,activate.adobe.com
+DOMAIN-SUFFIX,activate.wip3.adobe.com
+DOMAIN-SUFFIX,ereg.adobe.com
+DOMAIN-SUFFIX,ereg.wip3.adobe.com
+DOMAIN-SUFFIX,hlrcv.stage.adobe.com
+DOMAIN-SUFFIX,lm.licenses.adobe.com
+DOMAIN-SUFFIX,lmlicenses.wip4.adobe.com
+DOMAIN-SUFFIX,na1r.services.adobe.com
+DOMAIN-SUFFIX,na2m-pr.licenses.adobe.com
+# > Apple
+DOMAIN-SUFFIX,adserver.unityads.unity3d.com
+# > Baidu
+DOMAIN-SUFFIX,ad.duapps.com
+DOMAIN-SUFFIX,api.mobula.sdk.duapps.com
+DOMAIN-SUFFIX,bdimg.share.baidu.com
+DOMAIN-SUFFIX,click.hm.baidu.com
+DOMAIN-SUFFIX,cm.pos.baidu.com
+DOMAIN-SUFFIX,cpro.baidustatic.com
+DOMAIN-SUFFIX,drmcmm.baidu.com
+DOMAIN-SUFFIX,dup.baidustatic.com
+DOMAIN-SUFFIX,entry.baidu.cn
+DOMAIN-SUFFIX,f10.baidu.com
+DOMAIN-SUFFIX,fc-.cdn.bcebos.com
+DOMAIN-SUFFIX,res.limei.com
+DOMAIN-SUFFIX,rigel.baidustatic.com
+DOMAIN-SUFFIX,s.cpro.baidu.com
+DOMAIN-SUFFIX,sa.tuisong.baidu.com
+DOMAIN-SUFFIX,snippet.pos.baidu.com
+DOMAIN-SUFFIX,spcode.baidu.com
+DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com
+DOMAIN-SUFFIX,ubmcmm.baidustatic.com
+DOMAIN-SUFFIX,ufosdk.baidu.cn
+DOMAIN-SUFFIX,wn.pos.baidu.com
+DOMAIN-SUFFIX,zzy1.quyaoya.com
+# > Book-app 起点 掌阅 书旗 宜搜
+DOMAIN-SUFFIX,adm.ps.easou.com
+DOMAIN-SUFFIX,api.itaoxiaoshuo.com
+DOMAIN-SUFFIX,assets.ps.easou.com
+DOMAIN-SUFFIX,m.txtxr.com
+DOMAIN-SUFFIX,sdk.cferw.com
+DOMAIN-SUFFIX,tjlog.ps.easou.com
+DOMAIN-SUFFIX,ut2.shuqistat.com
+# > Kugou
+DOMAIN-SUFFIX,bssdl.kugou.com
+DOMAIN-SUFFIX,gg.kugou.com
+DOMAIN-SUFFIX,mobilelog.kugou.com
+# > Kuwo
+DOMAIN-SUFFIX,apk.shouji.koowo.com
+DOMAIN-SUFFIX,g.koowo.com
+# > Meizu flyme 魅族
+DOMAIN-SUFFIX,api-game.meizu.com
+# > Miui 小米
+DOMAIN-SUFFIX,wtradv.market.xiaomi.com
+DOMAIN-SUFFIX,xmpush.xiaomi.com
+# > QQ
+DOMAIN-KEYWORD,omgmtaw
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,tcss.qq.com
+# > UC ali
+DOMAIN-SUFFIX,client.video.ucweb.com
+DOMAIN-SUFFIX,cms.ucweb.com
+DOMAIN-SUFFIX,m.uczzd.cn
+DOMAIN-SUFFIX,puds.ucweb.com
+DOMAIN-SUFFIX,u.uc123.com
+DOMAIN-SUFFIX,u.ucfly.com
+DOMAIN-SUFFIX,uc.ucweb.com
+DOMAIN-SUFFIX,ucsec.ucweb.com
+DOMAIN-SUFFIX,ucsec1.ucweb.com
+# > Weifeng
+DOMAIN-SUFFIX,we.tm
+# > WPS Office
+DOMAIN-SUFFIX,mo.res.wpscdn.cn
+# > Wi-Fi key
+DOMAIN-SUFFIX,c.51y5.net
+DOMAIN-SUFFIX,cdsget.51y5.net
+DOMAIN-SUFFIX,news-imgpb.51y5.net
+DOMAIN-SUFFIX,wifiapidd.51y5.net
+DOMAIN-SUFFIX,wkanc.51y5.net
+# > Xunlei 迅雷app&看看
+DOMAIN-SUFFIX,logic.cpm.cm.kankan.com
+# > Yahoo
+DOMAIN-SUFFIX,m.yap.yahoo.com
+# > Zhihu
+DOMAIN-SUFFIX,sugar.zhihu.com
+# > Fenghuang 凤凰TV
+DOMAIN-SUFFIX,iis3g.deliver.ifeng.com
+DOMAIN-SUFFIX,mfp.deliver.ifeng.com
+# > iqiyi PPS 爱奇艺
+DOMAIN-SUFFIX,msg.71.am
+IP-CIDR,101.227.200.0/24,no-resolve
+IP-CIDR,101.227.200.11/32,no-resolve
+IP-CIDR,101.227.200.28/32,no-resolve
+IP-CIDR,101.227.97.240/32,no-resolve
+IP-CIDR,124.192.153.42/32,no-resolve
+# > Ku6 酷6
+DOMAIN-SUFFIX,pq.stat.ku6.com
+DOMAIN-SUFFIX,static.ku6.com
+# > MGTV 芒果TV
+DOMAIN-SUFFIX,da.mgtv.com
+# > Sohu 搜狐
+DOMAIN-SUFFIX,pv.sohu.com
+# > Youku & Tudou
+DOMAIN-SUFFIX,p.l.ykimg.com
+DOMAIN-SUFFIX,p.l.youku.com
+DOMAIN-SUFFIX,r.l.youku.com
+DOMAIN-SUFFIX,stat.youku.com
+DOMAIN-SUFFIX,stats.tudou.com
+DOMAIN-SUFFIX,v.l.youku.com
+IP-CIDR,117.177.248.17/32,no-resolve
+IP-CIDR,117.177.248.41/32,no-resolve
+IP-CIDR,223.87.176.139/32,no-resolve
+IP-CIDR,223.87.176.176/32,no-resolve
+IP-CIDR,223.87.177.180/32,no-resolve
+IP-CIDR,223.87.177.182/32,no-resolve
+IP-CIDR,223.87.177.184/32,no-resolve
+IP-CIDR,223.87.177.43/32,no-resolve
+IP-CIDR,223.87.177.47/32,no-resolve
+IP-CIDR,223.87.177.80/32,no-resolve
+IP-CIDR,223.87.182.101/32,no-resolve
+IP-CIDR,223.87.182.102/32,no-resolve
+IP-CIDR,223.87.182.11/32,no-resolve
+IP-CIDR,223.87.182.52/32,no-resolve
+# > Youtube
+DOMAIN-SUFFIX,ehg-youtube.hitbox.com
+DOMAIN-SUFFIX,ssl-youtube.2cnt.net
+DOMAIN-SUFFIX,youtube.112.2o7.net
+DOMAIN-SUFFIX,youtube.2cnt.net
+# > 常用网站广告
+DOMAIN-SUFFIX,ad.unimhk.com
+DOMAIN-SUFFIX,adm.10jqka.com.cn
+DOMAIN-SUFFIX,ads.genieessp.com
+DOMAIN-SUFFIX,adv.ccb.com
+DOMAIN-SUFFIX,beacon.tingyun.com
+DOMAIN-SUFFIX,cdn.jiuzhilan.com
+DOMAIN-SUFFIX,e.nexac.com
+DOMAIN-SUFFIX,eq.10jqka.com.cn
+DOMAIN-SUFFIX,image.gentags.com
+DOMAIN-SUFFIX,log.outbrain.com
+DOMAIN-SUFFIX,m.12306media.com
+DOMAIN-SUFFIX,ozone.10jqka.com.cn
+DOMAIN-SUFFIX,stat.10jqka.com.cn
