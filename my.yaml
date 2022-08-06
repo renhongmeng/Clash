@@ -28,13 +28,13 @@ custom_proxy_group=聊天软件`select`[]手动切换`[]DIRECT`.*
 custom_proxy_group=Spotify`select`[]手动切换`[]DIRECT`.*
 custom_proxy_group=TikTok`select`[]手动切换`[]DIRECT`.*
 custom_proxy_group=国外网站`select`[]手动切换`[]DIRECT`.*
+custom_proxy_group=漏网之鱼`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=BT`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=微软服务`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=苹果服务`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内流媒体`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内网站`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内IP段`select`[]DIRECT`[]手动切换`.*
-custom_proxy_group=漏网之鱼`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=应用拦截`select`[]REJECT`[]DIRECT
 
