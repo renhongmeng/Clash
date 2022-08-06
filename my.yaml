@@ -15,7 +15,7 @@ ruleset=微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Mi
 ruleset=苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.yaml
 ruleset=国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/StreamingCN.yaml
 ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn.yaml
-ruleset=国内IP段,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn-ip.yaml
+ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/cn-ip.yaml
 ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
@@ -34,7 +34,6 @@ custom_proxy_group=微软服务`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=苹果服务`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内流媒体`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内网站`select`[]DIRECT`[]手动切换`.*
-custom_proxy_group=国内IP段`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=应用拦截`select`[]REJECT`[]DIRECT
 
