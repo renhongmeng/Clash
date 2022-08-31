@@ -9,7 +9,7 @@ ruleset=TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.y
 ruleset=Spotify,https://raw.githubusercontent.com/renhongmeng/Clash/main/spotify.yaml
 ruleset=国外网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/gfw.yaml
 #ruleset=全球拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/adblock.yaml
-ruleset=应用拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/BanProgramAD.yaml
+#ruleset=应用拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/BanProgramAD.yaml
 ruleset=BT,https://raw.githubusercontent.com/renhongmeng/Clash/main/PrivateTracker.yaml
 ruleset=微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Microsoft.yaml
 ruleset=苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.yaml
@@ -36,7 +36,7 @@ custom_proxy_group=苹果服务`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内流媒体`select`[]DIRECT`[]手动切换`.*
 custom_proxy_group=国内网站`select`[]DIRECT`[]手动切换`.*
 #custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT
-custom_proxy_group=应用拦截`select`[]REJECT`[]DIRECT
+#custom_proxy_group=应用拦截`select`[]REJECT`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
