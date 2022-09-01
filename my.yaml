@@ -17,7 +17,7 @@ ruleset=国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main
 ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/China.yaml
 #ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/ipv4.yaml
 #ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/ipv6.yaml
-#ruleset=国内网站,[]GEOIP,CN
+ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
 #custom_proxy_group=手动切换`select`.*
