@@ -13,7 +13,7 @@ ruleset=BT,https://raw.githubusercontent.com/renhongmeng/Clash/main/PrivateTrack
 ruleset=微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Microsoft.yaml
 ruleset=苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.yaml
 ruleset=国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/StreamingCN.yaml
-ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/China.yaml
+ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/China-lite.yaml
 ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
