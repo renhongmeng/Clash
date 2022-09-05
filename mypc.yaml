@@ -7,6 +7,7 @@ ruleset=游戏平台,https://raw.githubusercontent.com/renhongmeng/Clash/main/ga
 ruleset=聊天软件,https://raw.githubusercontent.com/renhongmeng/Clash/main/chat.yaml
 ruleset=TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.yaml
 ruleset=Spotify,https://raw.githubusercontent.com/renhongmeng/Clash/main/spotify.yaml
+ruleset=Facebook,https://raw.githubusercontent.com/renhongmeng/Clash/main/Facebook.yaml
 ruleset=国外网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/gfw.yaml
 #ruleset=全球拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/adblock.yaml
 #ruleset=应用拦截,https://raw.githubusercontent.com/renhongmeng/Clash/main/BanProgramAD.yaml
