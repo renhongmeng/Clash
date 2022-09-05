@@ -1496,15 +1496,6 @@ DOMAIN-SUFFIX,ezpc.tk
 DOMAIN-SUFFIX,ezpeer.com
 DOMAIN-SUFFIX,ezua.com
 DOMAIN-SUFFIX,fa.gov.tw
-DOMAIN-SUFFIX,facebook.br
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.design
-DOMAIN-SUFFIX,facebook.hu
-DOMAIN-SUFFIX,facebook.in
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,facebook.nl
-DOMAIN-SUFFIX,facebook.se
-DOMAIN-SUFFIX,facebookquotes4u.com
 DOMAIN-SUFFIX,faceless.me
 DOMAIN-SUFFIX,facesofnyfw.com
 DOMAIN-SUFFIX,facesoftibetanselfimmolators.info
@@ -1739,8 +1730,6 @@ DOMAIN-SUFFIX,freexinwen.com
 DOMAIN-SUFFIX,freeyellow.com
 DOMAIN-SUFFIX,freeyoutubeproxy.net
 DOMAIN-SUFFIX,frienddy.com
-DOMAIN-SUFFIX,friendfeed-media.com
-DOMAIN-SUFFIX,friendfeed.com
 DOMAIN-SUFFIX,friendfinder.com
 DOMAIN-SUFFIX,friends-of-tibet.org
 DOMAIN-SUFFIX,friendsoftibet.org
@@ -2628,7 +2617,6 @@ DOMAIN-SUFFIX,insecam.org
 DOMAIN-SUFFIX,insidevoa.com
 DOMAIN-SUFFIX,instanthq.com
 DOMAIN-SUFFIX,institut-tibetain.org
-DOMAIN-SUFFIX,internet.org
 DOMAIN-SUFFIX,internetdefenseleague.org
 DOMAIN-SUFFIX,internetfreedom.org
 DOMAIN-SUFFIX,internetpopculture.com
@@ -3744,7 +3732,6 @@ DOMAIN-SUFFIX,paradisehill.cc
 DOMAIN-SUFFIX,paradisepoker.com
 DOMAIN-SUFFIX,parkansky.com
 DOMAIN-SUFFIX,parler.com
-DOMAIN-SUFFIX,parse.com
 DOMAIN-SUFFIX,parsevideo.com
 DOMAIN-SUFFIX,partycasino.com
 DOMAIN-SUFFIX,partypoker.com
@@ -4727,7 +4714,6 @@ DOMAIN-SUFFIX,thedalailamamovie.com
 DOMAIN-SUFFIX,thediplomat.com
 DOMAIN-SUFFIX,thedw.us
 DOMAIN-SUFFIX,theepochtimes.com
-DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thefrontier.hk
 DOMAIN-SUFFIX,thegay.com
 DOMAIN-SUFFIX,thegioitinhoc.vn
@@ -5839,11 +5825,9 @@ DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.media
 # > Facebook
-DOMAIN-SUFFIX,fbcdn.com
 # > Github
 DOMAIN-SUFFIX,githubapp.com
 # > Instagram
-DOMAIN-SUFFIX,instagr.am
 # > Porn
 DOMAIN-SUFFIX,8teenxxx.com
 DOMAIN-SUFFIX,ahcdn.com
@@ -5921,29 +5905,3 @@ DOMAIN-SUFFIX,trustasiassl.com
 DOMAIN-SUFFIX,tumblr.co
 DOMAIN-SUFFIX,txmblr.com
 DOMAIN-SUFFIX,vox-cdn.com
-# > 国外域名
-DOMAIN-SUFFIX,eu
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,us
-# > 国外域名关键字
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,abema
-DOMAIN-KEYWORD,appledaily
-DOMAIN-KEYWORD,avtb
-DOMAIN-KEYWORD,beetalk
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,whatsapp
