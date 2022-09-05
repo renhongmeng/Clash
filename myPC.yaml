@@ -15,8 +15,8 @@ ruleset=微软服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/Mi
 ruleset=苹果服务,https://raw.githubusercontent.com/renhongmeng/Clash/main/apple.yaml
 ruleset=国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/StreamingCN.yaml
 ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/China.yaml
-#ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/ipv4.yaml
-#ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/ipv6.yaml
+ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/ipv4.yaml
+ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/ipv6.yaml
 ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
