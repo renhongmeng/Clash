@@ -1959,6 +1959,6 @@ IP-CIDR6,240e:400::/22,no-resolve
 IP-CIDR6,240e:800::/21,no-resolve
 IP-CIDR6,240e:1000::/20,no-resolve
 IP-CIDR6,240e:2000::/19,no-resolve
-IP-CIDR7,240f:4000::/24,no-resolve
-IP-CIDR8,240f:8000::/24,no-resolve
-IP-CIDR9,240f:c000::/24,no-resolve
+IP-CIDR6,240f:4000::/24,no-resolve
+IP-CIDR6,240f:8000::/24,no-resolve
+IP-CIDR6,240f:c000::/24,no-resolve
