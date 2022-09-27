@@ -1,13 +1,4 @@
-# > AppStore
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,ppq.apple.com
-# > AppStoreConnect
-DOMAIN,appstoreconnect.apple.com
-DOMAIN,iosapps-ssl.itunes.apple.com
-DOMAIN,itcmobile.itunes.apple.com
+# > Apple
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
@@ -25,56 +16,25 @@ DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
-# > AppleAPI
-DOMAIN-KEYWORD,apple.com.akadns.net
-DOMAIN-KEYWORD,icloud.com.akadns.net
-DOMAIN-SUFFIX,appsto.re
-# > AppleMaps
-PROCESS-NAME,com.apple.geod
-# > Apple
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-KEYWORD,apple.com.edgekey.net
-DOMAIN-KEYWORD,apple-support.akadns.net
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple
+DOMAIN-SUFFIX,apple-dns.cn
+DOMAIN-SUFFIX,apple-dns.net
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+IP-CIDR,192.35.50.0/24,no-resolve
+IP-CIDR,198.183.17.0/24,no-resolve
+IP-CIDR,205.180.175.0/24,no-resolve
 # > AppleTV
-DOMAIN-SUFFIX,tv.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
-DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
-# > macOS updates
-DOMAIN,configuration.apple.com
-DOMAIN,gnf-mdn.apple.com
-DOMAIN,gnf-mr.apple.com
-DOMAIN,gs.apple.com
-DOMAIN,ig.apple.com
-DOMAIN,skl.apple.com
-DOMAIN,swcdn.apple.com
-DOMAIN,swdist.apple.com
-DOMAIN,swdownload.apple.com
-DOMAIN,swpost.apple.com
-DOMAIN,swscan.apple.com
-# > macOS Recovery
-DOMAIN,oscdn.apple.com
-DOMAIN,osrecovery.apple.com
-# > iOS, iPadOS, and watchOS updates
-DOMAIN,appldnld.apple.com
-DOMAIN,ns.itunes.apple.com
-# > iOS, iPadOS, tvOS, watchOS, and macOS updates
-DOMAIN,gg.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,mesu.apple.com
-DOMAIN,updates.cdn-apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,xp.apple.com
-# > Apple Music
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN,aod.itunes.apple.com
-DOMAIN,aod-ssl.itunes.apple.com
-DOMAIN,audio.itunes.apple.com
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+# > AppleNews
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+DOMAIN,gspe1-ssl.ls.apple.com
