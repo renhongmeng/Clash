@@ -1,6 +1,6 @@
 [custom]
 
-ruleset=Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google.yaml
+ruleset=Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google-lite.yaml
 ruleset=GitHub,https://raw.githubusercontent.com/renhongmeng/Clash/main/GitHub.yaml
 ruleset=TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.yaml
 #ruleset=Spotify,https://raw.githubusercontent.com/renhongmeng/Clash/main/spotify.yaml
