@@ -1,4 +1,6 @@
 # > Google
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,agnss.goog
 DOMAIN-SUFFIX,channel.status.request.url
@@ -6,8 +8,6 @@ DOMAIN-SUFFIX,g.cn
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,goog
-DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,google.ad
 DOMAIN-SUFFIX,google.ae
 DOMAIN-SUFFIX,google.al
@@ -383,7 +383,7 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,youtube
+DOMAIN-SUFFIX,ytkids.app.goo.gl
 DOMAIN-SUFFIX,aspmx.l.google.com
 DOMAIN-SUFFIX,gm1.ggpht.com
 DOMAIN-SUFFIX,gmail-smtp-in.l.google.com
