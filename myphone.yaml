@@ -1,144 +1,23 @@
 [custom]
 
-ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
-ruleset=YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
-ruleset=GitHub,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
-ruleset=TikTok,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list
-ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
-ruleset=奈飞视频,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
-ruleset=游戏平台,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list
-ruleset=聊天软件,https://raw.githubusercontent.com/renhongmeng/Clash/main/chat.yaml
-ruleset=国外网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-ruleset=BT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker/PrivateTracker.list
+ruleset=Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google.yaml
+ruleset=YouTube,https://raw.githubusercontent.com/renhongmeng/Clash/main/youtube.yaml
+ruleset=GitHub,https://raw.githubusercontent.com/renhongmeng/Clash/main/GitHub.yaml
+ruleset=TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.yaml
+ruleset=境外流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/GlobalMedia.yaml
+ruleset=国内流媒体,https://raw.githubusercontent.com/renhongmeng/Clash/main/ChinaMedia.yaml
+ruleset=国内网站,https://raw.githubusercontent.com/renhongmeng/Clash/main/China-lite.yaml
 ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
-#custom_proxy_group=手动切换`select`.*
 custom_proxy_group=Google`select`[]DIRECT`.*
 custom_proxy_group=YouTube`select`[]DIRECT`.*
 custom_proxy_group=GitHub`select`[]DIRECT`.*
-custom_proxy_group=Spotify`select`[]DIRECT`.*
 custom_proxy_group=TikTok`select`[]DIRECT`.*
-custom_proxy_group=奈飞视频`select`[]DIRECT`.*
-custom_proxy_group=游戏平台`select`[]DIRECT`.*
-custom_proxy_group=聊天软件`select`[]DIRECT`.*
+custom_proxy_group=境外流媒体`select`[]DIRECT`.*
 custom_proxy_group=漏网之鱼`select`[]DIRECT`.*
-custom_proxy_group=BT`select`[]DIRECT`.*
-
+custom_proxy_group=国内网站`select`[]DIRECT`.*
+custom_proxy_group=国内流媒体`select`[]DIRECT`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
-
-rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./clash/assets/reject.yaml
-    interval: 86400
-
-  icloud:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-    path: ./clash/assets/icloud.yaml
-    interval: 86400
-
-  apple:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-    path: ./clash/assets/apple.yaml
-    interval: 86400
-
-  google:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-    path: ./clash/assets/google.yaml
-    interval: 86400
-
-  proxy:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-    path: ./clash/assets/proxy.yaml
-    interval: 86400
-
-  direct:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-    path: ./clash/assets/direct.yaml
-    interval: 86400
-
-  private:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-    path: ./clash/assets/private.yaml
-    interval: 86400
-
-  gfw:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-    path: ./clash/assets/gfw.yaml
-    interval: 86400
-
-  greatfire:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
-    path: ./clash/assets/greatfire.yaml
-    interval: 86400
-
-  tld-not-cn:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-    path: ./clash/assets/tld-not-cn.yaml
-    interval: 86400
-
-  telegramcidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-    path: ./clash/assets/telegramcidr.yaml
-    interval: 86400
-
-  cncidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
-    path: ./clash/assets/cncidr.yaml
-    interval: 86400
-
-  lancidr:
-    type: http
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-    path: ./clash/assets/lancidr.yaml
-    interval: 86400
-
-  applications:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-    path: ./clash/assets/applications.yaml
-    interval: 86400
-	
-rules:
-  - RULE-SET,applications,DIRECT
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,icloud,DIRECT
-  - RULE-SET,apple,DIRECT
-  - RULE-SET,google,DIRECT
-  - RULE-SET,proxy,PROXY
-  - RULE-SET,direct,DIRECT
-  - RULE-SET,lancidr,DIRECT
-  - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,PROXY
