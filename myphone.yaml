@@ -16,10 +16,10 @@ custom_proxy_group=YouTube`select`[]DIRECT`.*
 custom_proxy_group=GitHub`select`[]DIRECT`.*
 custom_proxy_group=TikTok`select`[]DIRECT`.*
 custom_proxy_group=Game`select`[]DIRECT`.*
+custom_proxy_group=主流境外网站`select`[]DIRECT`.*
 custom_proxy_group=境外流媒体`select`[]DIRECT`.*
 custom_proxy_group=漏网之鱼`select`[]DIRECT`.*
 custom_proxy_group=国内网站`select`[]DIRECT`.*
-custom_proxy_group=国内流媒体`select`[]DIRECT`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
