@@ -1,7 +1,7 @@
 [custom]
 
 ruleset=Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/Google.yaml
-ruleset=YouTube,https://raw.githubusercontent.com/renhongmeng/Clash/main/youtube.yaml
+ruleset=Google,https://raw.githubusercontent.com/renhongmeng/Clash/main/youtube.yaml
 ruleset=GitHub,https://raw.githubusercontent.com/renhongmeng/Clash/main/GitHub.yaml
 ruleset=TikTok,https://raw.githubusercontent.com/renhongmeng/Clash/main/TikTok.yaml
 ruleset=Game,https://raw.githubusercontent.com/renhongmeng/Clash/main/game.yaml
@@ -13,7 +13,6 @@ ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
 custom_proxy_group=Google`select`[]DIRECT`.*
-custom_proxy_group=YouTube`select`[]DIRECT`.*
 custom_proxy_group=GitHub`select`[]DIRECT`.*
 custom_proxy_group=TikTok`select`[]DIRECT`.*
 custom_proxy_group=Game`select`[]DIRECT`.*
