@@ -18,7 +18,6 @@ ruleset=国内网站,https://raw.githubusercontent.com/blackmatrix7/ios_rule_scr
 ruleset=国内网站,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
-#custom_proxy_group=手动切换`select`.*
 custom_proxy_group=Google`select`[]DIRECT`.*
 custom_proxy_group=GitHub`select`[]DIRECT`.*
 custom_proxy_group=Spotify`select`[]DIRECT`.*
@@ -32,8 +31,6 @@ custom_proxy_group=BT`select`[]DIRECT`.*
 custom_proxy_group=微软服务`select`[]DIRECT`.*
 custom_proxy_group=苹果服务`select`[]DIRECT`.*
 custom_proxy_group=国内网站`select`[]DIRECT`.*
-#custom_proxy_group=全球拦截`select`[]REJECT`[]DIRECT
-#custom_proxy_group=应用拦截`select`[]REJECT`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
