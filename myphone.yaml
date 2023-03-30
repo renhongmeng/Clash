@@ -1,6 +1,6 @@
 [custom]
 
-ruleset=国内网站,https://list.yyaan.top/list/China.list
+ruleset=国内网站,https://list.yyaan.top/list/China.txt
 ruleset=Google,https://list.yyaan.top/rules/Google.list
 ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.list
 ruleset=TikTok,https://list.yyaan.top/rules/TikTok.list
