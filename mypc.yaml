@@ -1,31 +1,32 @@
 [custom]
 
-ruleset=国内网站,https://list.yyaan.top/rules/China.list
 ruleset=Google,https://list.yyaan.top/rules/Google.list
 ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.list
 #ruleset=TikTok,https://list.yyaan.top/rules/TikTok.list
-ruleset=Game,https://list.yyaan.top/rules/Game.list
 ruleset=Spotify,https://list.yyaan.top/rules/Spotify.list
-ruleset=PT,https://list.yyaan.top/rules/PrivateTracker.list
-ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.list
+ruleset=Game,https://list.yyaan.top/rules/Game.list
 ruleset=聊天软件,https://list.yyaan.top/rules/Chat.list
+ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.list
 ruleset=苹果服务,https://list.yyaan.top/rules/Apple.list
 ruleset=国外网站,https://list.yyaan.top/rules/Global.list
-ruleset=国内网站,[]GEOIP,CN
+ruleset=全球直连,https://list.yyaan.top/rules/China.list
+ruleset=全球直连,https://list.yyaan.top/rules/PrivateTracker.list
+ruleset=全球直连,[]GEOIP,LAN
+ruleset=全球直连,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
-custom_proxy_group=国内网站`select`[]DIRECT`.*
+
 custom_proxy_group=Google`select`[]DIRECT`.*
 custom_proxy_group=Microsoft`select`[]DIRECT`.*
 #custom_proxy_group=TikTok`select`[]DIRECT`.*
-custom_proxy_group=Game`select`[]DIRECT`.*
 custom_proxy_group=Spotify`select`[]DIRECT`.*
-custom_proxy_group=PT`select`[]DIRECT`.*
-custom_proxy_group=境外流媒体`select`[]DIRECT`.*
+custom_proxy_group=Game`select`[]DIRECT`.*
 custom_proxy_group=聊天软件`select`[]DIRECT`.*
-custom_proxy_group=苹果服务`select`[]DIRECT`.*
+custom_proxy_group=境外流媒体`select`[]DIRECT`.*
 custom_proxy_group=国外网站`select`[]DIRECT`.*
 custom_proxy_group=漏网之鱼`select`[]DIRECT`.*
+custom_proxy_group=苹果服务`select`[]DIRECT`.*
+custom_proxy_group=全球直连`select`[]DIRECT`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
