@@ -1,16 +1,15 @@
 [custom]
 
-ruleset=Google,https://list.yyaan.top/rules/Google.list
-ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.list
-#ruleset=TikTok,https://list.yyaan.top/rules/TikTok.list
-ruleset=Spotify,https://list.yyaan.top/rules/Spotify.list
-ruleset=Game,https://list.yyaan.top/rules/Game.list
-ruleset=聊天软件,https://list.yyaan.top/rules/Chat.list
-ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.list
-ruleset=苹果服务,https://list.yyaan.top/rules/Apple.list
-ruleset=国外网站,https://list.yyaan.top/rules/Global.list
-ruleset=全球直连,https://list.yyaan.top/rules/China.list
-ruleset=全球直连,https://list.yyaan.top/rules/PrivateTracker.list
+ruleset=Google,https://list.yyaan.top/rules/Google.txt
+ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.txt
+ruleset=Spotify,https://list.yyaan.top/rules/Spotify.txt
+ruleset=Game,https://list.yyaan.top/rules/Game.txt
+ruleset=聊天软件,https://list.yyaan.top/rules/Chat.txt
+ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.txt
+ruleset=苹果服务,https://list.yyaan.top/rules/Apple.txt
+ruleset=国外网站,https://list.yyaan.top/rules/Global.txt
+ruleset=全球直连,https://list.yyaan.top/rules/China.txt
+ruleset=全球直连,https://list.yyaan.top/rules/PrivateTracker.txt
 ruleset=全球直连,[]GEOIP,LAN
 ruleset=全球直连,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
@@ -18,7 +17,6 @@ ruleset=漏网之鱼,[]FINAL
 
 custom_proxy_group=Google`select`[]DIRECT`.*
 custom_proxy_group=Microsoft`select`[]DIRECT`.*
-#custom_proxy_group=TikTok`select`[]DIRECT`.*
 custom_proxy_group=Spotify`select`[]DIRECT`.*
 custom_proxy_group=Game`select`[]DIRECT`.*
 custom_proxy_group=聊天软件`select`[]DIRECT`.*
