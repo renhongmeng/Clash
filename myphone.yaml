@@ -1,11 +1,11 @@
 [custom]
 
 
-ruleset=Google,https://list.yyaan.top/rules/Google.list
-ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.list
-ruleset=Game,https://list.yyaan.top/rules/Game.list
-ruleset=聊天软件,https://list.yyaan.top/rules/Chat.list
-ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.list
+ruleset=Google,https://list.yyaan.top/rules/Google.txt
+ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.txt
+ruleset=Game,https://list.yyaan.top/rules/Game.txt
+ruleset=聊天软件,https://list.yyaan.top/rules/Chat.txt
+ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.txt
 ruleset=主流境外网站,https://list.yyaan.top/list/TopBlockedSites.txt
 ruleset=全球直连,https://list.yyaan.top/list/China.txt
 ruleset=全球直连,[]GEOIP,LAN
