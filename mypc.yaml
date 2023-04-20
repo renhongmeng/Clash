@@ -1,12 +1,13 @@
 [custom]
 
 ruleset=Google,https://list.yyaan.top/rules/Google.txt
-ruleset=Microsoft,https://list.yyaan.top/rules/Microsoft.txt
+ruleset=Github,https://list.yyaan.top/rules/Github.txt
 ruleset=Spotify,https://list.yyaan.top/rules/Spotify.txt
 ruleset=Game,https://list.yyaan.top/rules/Game.txt
 ruleset=聊天软件,https://list.yyaan.top/rules/Chat.txt
 ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.txt
 ruleset=苹果服务,https://list.yyaan.top/rules/Apple.txt
+ruleset=微软服务,https://list.yyaan.top/rules/Microsoft.txt
 ruleset=国外网站,https://list.yyaan.top/rules/Global.txt
 ruleset=全球直连,https://list.yyaan.top/rules/China.txt
 ruleset=全球直连,https://list.yyaan.top/rules/PrivateTracker.txt
@@ -16,7 +17,7 @@ ruleset=漏网之鱼,[]FINAL
 
 
 custom_proxy_group=Google`select`[]DIRECT`.*
-custom_proxy_group=Microsoft`select`[]DIRECT`.*
+custom_proxy_group=Github`select`[]DIRECT`.*
 custom_proxy_group=Spotify`select`[]DIRECT`.*
 custom_proxy_group=Game`select`[]DIRECT`.*
 custom_proxy_group=聊天软件`select`[]DIRECT`.*
@@ -24,6 +25,7 @@ custom_proxy_group=境外流媒体`select`[]DIRECT`.*
 custom_proxy_group=国外网站`select`[]DIRECT`.*
 custom_proxy_group=漏网之鱼`select`[]DIRECT`.*
 custom_proxy_group=苹果服务`select`[]DIRECT`.*
+custom_proxy_group=微软服务`select`[]DIRECT`.*
 custom_proxy_group=全球直连`select`[]DIRECT`.*
 
 enable_rule_generator=true
