@@ -8,7 +8,6 @@ ruleset=聊天软件,https://list.yyaan.top/rules/Chat.txt
 ruleset=境外流媒体,https://list.yyaan.top/rules/GlobalMedia.txt
 ruleset=主流境外网站,https://list.yyaan.top/list/TopBlockedSites.txt
 ruleset=全球直连,https://list.yyaan.top/list/China.txt
-ruleset=全球直连,[]GEOIP,LAN
 ruleset=全球直连,[]GEOIP,CN
 ruleset=漏网之鱼,[]FINAL
 
